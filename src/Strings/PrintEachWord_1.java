@@ -16,6 +16,8 @@ public class PrintEachWord_1 {
 			
 			
 		}
+		System.out.println();
+		System.out.println(str);
 	}
 
 }

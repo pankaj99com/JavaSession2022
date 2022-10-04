@@ -21,6 +21,7 @@ public class PrintEachWordsStartsWithSpecificLetters_16 {
 			{
 				if(w.startsWith("Co"))
 					System.out.println(w);
+				
 				w="";
 		}
 		

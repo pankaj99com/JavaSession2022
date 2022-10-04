@@ -10,9 +10,10 @@ public class PrintOnlyUpperCaseCharFromAString_7 {
 		String s="";//create an empty string
 		for(int i=0;i<str.length();i++) {
 			
-			char ch=str.charAt(i);
-			if(Character.isUpperCase(ch)) {
-				s=s+ch;
+			char c=str.charAt(i);
+			if(Character.isUpperCase(c)) {
+				//System.out.print(c);
+				s=s+c;
 			}
 			
 		}

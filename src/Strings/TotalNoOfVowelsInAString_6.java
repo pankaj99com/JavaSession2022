@@ -14,7 +14,7 @@ public class TotalNoOfVowelsInAString_6 {
 			char c=Character.toUpperCase(ch);
 			if(c=='A'|| c=='E' || c=='I' || c=='O' || c=='U') {
 				count++;
-				
+				//System.out.println(c+" "+i+" "+count);
 			}	
 			
 		}

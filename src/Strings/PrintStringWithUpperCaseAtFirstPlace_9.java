@@ -7,19 +7,19 @@ public class PrintStringWithUpperCaseAtFirstPlace_9 {
 	public static void main(String[] args) {
 
 		String str="India is great 24 Country";
-		String d="";//create an empty string
+		String uc="";//create an empty string
 		String r="";
 		for(int i=0;i<str.length();i++) {
 			
 			char ch=str.charAt(i);
 			if(Character.isUpperCase(ch)) {
-				d=d+ch;
+				uc=uc+ch;
 			}else {
 				r=r+ch;
 			}
 			
 		}
-		String s=d+r;
+		String s=uc+r;
 		System.out.println("New string with Upper case at first place--->" +s);
 	}
 

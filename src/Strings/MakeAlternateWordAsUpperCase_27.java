@@ -19,6 +19,7 @@ public class MakeAlternateWordAsUpperCase_27 {
 			if (c != ' ') {
 				w += c;
 			} else {
+				
 				if(count++%2==0)
 					ns=ns+w.toUpperCase()+" ";
 				else

@@ -18,8 +18,9 @@ public class PrintStringAfterDeletingSpecificWord_26 {
 			if (c != ' ') {
 				w += c;
 			} else {
-				if(!w.equals("mom"))
+				if(!w.equals("24"))
 					ns=ns+w+" ";
+				System.out.println(ns);
 				
 
 				w = "";

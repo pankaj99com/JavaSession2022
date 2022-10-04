@@ -9,6 +9,7 @@ public class PrintEachWord_13 {
 		String str = "India is great 24 Country";
 		String w = "";//
 		str = str + " ";
+		
 
 		for (int i = 0; i < str.length(); i++) {
 
@@ -16,8 +17,11 @@ public class PrintEachWord_13 {
 
 			if (c != ' ') {// if charcter is not spacecharcter then add that
 							// character in an empty string
-				w += c;
 				
+				//System.out.println(c);
+				w =w+c;
+				//System.out.println("word--->"+w);
+		
 			} else {
 
 				System.out.println(w);

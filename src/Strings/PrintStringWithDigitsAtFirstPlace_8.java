@@ -13,9 +13,9 @@ public class PrintStringWithDigitsAtFirstPlace_8 {
 			
 			char ch=str.charAt(i);
 			if(Character.isDigit(ch)) {
-				d=d+ch;
+				d=d+ch;//24
 			}else {
-				r=r+ch;
+				r=r+ch;//India is great Country
 			}
 			
 		}

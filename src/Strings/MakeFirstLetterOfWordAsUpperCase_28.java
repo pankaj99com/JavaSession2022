@@ -6,11 +6,11 @@ public class MakeFirstLetterOfWordAsUpperCase_28 {
 	/* make first letter of  word as upper case*/
 	public static void main(String[] args) {
 
-		String str = "India is great 24 Country mom";
+		String str = "india is great 24 country mom";
 		String w = "";
 		str = str + " ";
 		String ns="";
-		int count=0;
+		
 
 		for (int i = 0; i < str.length(); i++) {
 

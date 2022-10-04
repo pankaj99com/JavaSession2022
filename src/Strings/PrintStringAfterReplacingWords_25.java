@@ -20,8 +20,10 @@ public class PrintStringAfterReplacingWords_25 {
 			} else {
 				if(w.equals("great")) {
 					ns=ns+"powerful"+" ";
+					//System.out.println(ns);
 				}else {
 					ns=ns+w+" ";
+					System.out.println(ns);
 				}
 				
 
@@ -30,5 +32,6 @@ public class PrintStringAfterReplacingWords_25 {
 
 		}
 		System.out.println("new string after replacing words:"+ns);
+		//System.out.println(str);
 	}
 }

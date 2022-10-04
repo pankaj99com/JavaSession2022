@@ -6,7 +6,7 @@ public class CountNoOfWordsInAStringWhichStartsWithSpecificAlphabets_24 {
 	/* Count number of words which starts with C */
 	public static void main(String[] args) {
 
-		String str = "India is great 24 Country mom";
+		String str = "India is great 24 Country mom Counter";
 		String w = "";
 		str = str + " ";
 		int count=0;
@@ -19,9 +19,9 @@ public class CountNoOfWordsInAStringWhichStartsWithSpecificAlphabets_24 {
 				w += c;
 			} else {
 				if(w.startsWith("C"))
-					//System.out.println(w);
+					
 				count++;
-				
+				//System.out.println(w);
 
 				w = "";
 			}

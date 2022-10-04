@@ -21,6 +21,7 @@ public class PrintSpecialWordsFromAString_20 {
 			{
 				char first=w.charAt(0);
 				char last=w.charAt(w.length()-1);
+				
 				if((Character.toUpperCase(first)) ==(Character.toUpperCase(last))) {
 					System.out.println(w);
 				}

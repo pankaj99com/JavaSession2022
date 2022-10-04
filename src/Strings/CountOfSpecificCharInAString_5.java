@@ -13,7 +13,7 @@ public class CountOfSpecificCharInAString_5 {
 			char c=str.charAt(i);
 			if(c=='a'|| c=='A') {
 				count++;
-				
+				//System.out.println(count);
 			}	
 			
 		}

@@ -10,7 +10,7 @@ public class StringManupulations {
 		String s = "Hello";
 		String s1 = "Hell";
 		String s2 = "Hello";
-
+System.out.println(s.substring(1,4));
 		// 1.length
 		System.out.println(s.length());// 5
 

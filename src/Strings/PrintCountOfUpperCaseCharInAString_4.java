@@ -13,7 +13,7 @@ public class PrintCountOfUpperCaseCharInAString_4 {
 			char c=str.charAt(i);
 			if(Character.isUpperCase(c)) {
 				count++;
-				
+				System.out.println(c);
 			}	
 			
 		}

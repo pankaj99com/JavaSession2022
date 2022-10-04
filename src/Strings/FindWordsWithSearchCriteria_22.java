@@ -18,7 +18,8 @@ public class FindWordsWithSearchCriteria_22 {
 			if (c != ' ') {
 				w += c;
 			} else {
-				if(w.equalsIgnoreCase("is")) {
+				//System.out.println(w);
+				if(w.equalsIgnoreCase("india")) {
 					System.out.println(w);
 					count++;
 				}

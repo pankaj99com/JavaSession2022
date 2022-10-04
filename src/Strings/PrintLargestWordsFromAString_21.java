@@ -3,7 +3,7 @@ package Strings;
 import java.util.Scanner;
 
 public class PrintLargestWordsFromAString_21 {
-	/* Print special worls word like MOM,DAD, */
+	/* Print longest word in a string */
 	public static void main(String[] args) {
 
 		String str = "India is great 24 Country mom";
@@ -19,7 +19,9 @@ public class PrintLargestWordsFromAString_21 {
 				w += c;
 			} else {
 				if (w.length() > longestword.length()) {
+					
 					longestword = w;
+					
 				}
 
 				w = "";

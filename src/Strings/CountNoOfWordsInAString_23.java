@@ -7,6 +7,9 @@ public class CountNoOfWordsInAString_23 {
 	public static void main(String[] args) {
 
 		String str = "India is great 24 Country mom";
+//		String arr[]=str.split(" ");
+//		System.out.println(arr.length);
+		
 		String w = "";
 		str = str + " ";
 		int count=0;
@@ -19,7 +22,7 @@ public class CountNoOfWordsInAString_23 {
 				w += c;
 			} else {
 				count++;
-				
+				//System.out.println(w);
 				w = "";
 			}
 

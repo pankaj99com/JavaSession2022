@@ -10,6 +10,7 @@ public class PrintEachWordsWhichContainsSpecificAlphabet_17 {
 		String w="";
 		 str=str+" ";
 	
+	
 		for(int i=0;i<str.length();i++) {
 			
 			char c=str.charAt(i);
@@ -20,7 +21,9 @@ public class PrintEachWordsWhichContainsSpecificAlphabet_17 {
 			else 
 			{
 				if(w.contains("i"))
+					
 					System.out.println(w);
+				
 				//System.out.println("No words found");
 				w="";
 		}
