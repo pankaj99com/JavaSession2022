@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class MAP_RemovingDuplicatesChar4 {
@@ -30,6 +31,13 @@ public class MAP_RemovingDuplicatesChar4 {
 			if(map.get(key)>1) {
 			System.out.println(key+" : "+map.get(key));
 		}
+			for(Entry entry:map.entrySet()) {
+			if(map.get(key)>1) {
+				
+				System.out.print(entry.getKey()+" ");
+				
+			}
+			}
 		}
 		
 

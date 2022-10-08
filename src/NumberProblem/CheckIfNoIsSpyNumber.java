@@ -16,11 +16,11 @@ public class CheckIfNoIsSpyNumber {
 		
 		while(n!=0) {
 			
-			int r=n%10;
-			sum=sum+r;
-			prod=prod*r;
+			int r=n%10;//59%10=9,5
+			sum=sum+r;//9+5=14
+			prod=prod*r;//9*5=45
 			
-			n=n/10;
+			n=n/10;//5 //0
 		}
 		if(sum+prod==number) {
 			System.out.println("yes sum + product is equal to original number so its a SPECIAL NUMBER");

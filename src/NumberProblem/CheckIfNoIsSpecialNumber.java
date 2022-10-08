@@ -11,16 +11,16 @@ public class CheckIfNoIsSpecialNumber {
 		int n=0,sum=0,prod=1;
 		
 		n=number;
-		
+		//123
 		System.out.println(number);
 		
 		while(n!=0) {
 			
-			int r=n%10;
-			sum=sum+r;
-			prod=prod*r;
+			int r=n%10;//3  //2  //1
+			sum=sum+r;//3+2=5+1=6
+			prod=prod*r;//3*2=6*1=6
 			
-			n=n/10;
+			n=n/10;//12 //1  //0
 		}
 		if(sum==prod) {
 			System.out.println("yes sum and product is same so its a SPY NUMBER");

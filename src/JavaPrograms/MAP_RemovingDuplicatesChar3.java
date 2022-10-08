@@ -31,8 +31,7 @@ public class MAP_RemovingDuplicatesChar3 {
 			if(map.get(key)>1) {
 			System.out.println(key+" : "+map.get(key));
 			System.out.println(map);
-			map.remove(key);
-			System.out.println(map);
+			
 		}
 		}
 		

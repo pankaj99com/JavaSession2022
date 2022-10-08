@@ -11,14 +11,14 @@ public class CheckIfNoIsPalindrome {
 		int n=0,sum=0;
 		
 		n=number;
-		
+		//454
 		System.out.println(number);
 		
 		while(n!=0) {
 			
-			int r=n%10;
-			sum=sum*10+r;
-			n=n/10;
+			int r=n%10;//4  //5  //4
+			sum=sum*10+r;//40+5=450+4=454
+			n=n/10;//45  //4
 		}
 		if(sum==number) {
 			System.out.println("Its a Palindrome number");

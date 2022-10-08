@@ -7,7 +7,7 @@ public class SquarePattern {
 
 		for (int i = 1; i <= n; i++) {//This is row
 			for (int j = 1; j <= n; j++) {//this is col
-				System.out.print("* ");
+				System.out.print("*  ");
 			}
 			System.out.println();
 		}
