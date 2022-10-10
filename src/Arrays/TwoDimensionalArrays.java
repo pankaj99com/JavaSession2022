@@ -1,4 +1,4 @@
-package ArraysConcepts;
+package Arrays;
 
 public class TwoDimensionalArrays {
 
